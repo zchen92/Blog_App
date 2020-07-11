@@ -1,0 +1,51 @@
+body {
+    background-color:azure;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:#343a40
+}
+
+.container {
+    background-image: url(https://images.unsplash.com/photo-1492269682833-cd80f8a20b08?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color:azure;
+    border-radius: 5px;
+  }
+
+header {
+    min-height: 20vh;
+    min-width: 100vw;
+    text-align: center;
+    font-size: 60px;
+    padding:5px;
+    color: #343a40;
+    font-family: cursive;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+  }
+
+  input {
+    flex-basis:20%;
+    padding: .4em;
+  }
+  input[type="submit"] {
+    flex-basis:21%;
+    padding: .8em;
+    margin: .7em;
+    margin-top: 1.5em;
+  }
+  label {
+    flex-basis: 51%;
+    text-align: left;
+  }
