@@ -101,34 +101,39 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
         <div className="container">
           <header>
-            <h1>Happiness is a state of Mind</h1>
+            <h1>Happiness is a State of Mind</h1>
           </header>
-          <div className="formBox">
-            {this.state.isEditing ? null : <div>
-              <h2>Record your day!</h2>
-              <form onSubmit={this.handleSubmit}>
-                <label htmlFor="date">Date</label>
-                <input type="text" id="date" value={this.state.formInputs.date}
-                  onChange={this.handleChange}/>
-                <label htmlFor="happiness">Happiness Level</label>
-                <input type="number" id="happiness" value={this.state.formInputs.happiness}
-                  onChange={this.handleChange}/>
-                <label htmlFor="content">Today I'm grateful for...#1</label>
-                <input type="text" id="grateful1" value={this.state.formInputs.grateful1}
-                  onChange={this.handleChange} />
-                <label htmlFor="content">Today I'm grateful for... #2</label>
-                <input type="text" id="grateful2" value={this.state.formInputs.grateful2}
-                  onChange={this.handleChange} />
-                <label htmlFor="content">Today I'm grateful for... #3</label>
-                <input type="text" id="grateful3" value={this.state.formInputs.grateful3}
-                  onChange={this.handleChange}/>
-                <input type="submit" className="submit" />
-              </form>
+          <div class="sub-container1">
+            <div className="formBox">
+                {this.state.isEditing ? null : <div>
+                  <h2>Record your day!</h2>
+                  <form onSubmit={this.handleSubmit}>
+                    <label htmlFor="date">Date</label>
+                    <input type="text" id="date" value={this.state.formInputs.date}
+                      onChange={this.handleChange}/>
+                    <label htmlFor="happiness">Happiness Level</label>
+                    <input type="number" id="happiness" value={this.state.formInputs.happiness}
+                      onChange={this.handleChange}/>
+                    <label htmlFor="content">Today I'm grateful for...#1</label>
+                    <input type="text" id="grateful1" value={this.state.formInputs.grateful1}
+                      onChange={this.handleChange} />
+                    <label htmlFor="content">Today I'm grateful for... #2</label>
+                    <input type="text" id="grateful2" value={this.state.formInputs.grateful2}
+                      onChange={this.handleChange} />
+                    <label htmlFor="content">Today I'm grateful for... #3</label>
+                    <input type="text" id="grateful3" value={this.state.formInputs.grateful3}
+                      onChange={this.handleChange}/>
+                    <input type="submit" className="submit" />
+                </form> </div> }
+              </div>
+              {/* <div className="chart">
+                <h2>Happiness Chart</h2>
+              </div> */}
             </div>
-            <div>
+          <div className="sub-container2">
+          <div className="Diary">
               <Diaries 
                 content={this.state.diaries} 
                 handleDelete={this.handleDelete} 
@@ -137,13 +142,11 @@ class App extends Component {
                 isEditing={this.state.isEditing} 
                 diaryToEdit={this.state.diaryToEdit} 
                 handleChange={this.state.handleChange}/>
-            </div>
           </div>
-      </div>
-      </div>
+          </div>
+        </div>
     );
-    ;
-  } 
+  }
 }
 
 export default App;

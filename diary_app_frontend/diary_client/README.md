@@ -1,68 +1,45 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Grateful Reminder
 
-## Available Scripts
+![header image](https://images.unsplash.com/photo-1492269682833-cd80f8a20b08?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80g)
 
-In the project directory, you can run:
+## About the App
 
-### `yarn start`
+Grateful reminder is a website dedicated to helping users remember the goodness that is in their life. The goal is to help people self-reflect and focus on the positives, regardless of how large or small. When the user logs their daily happiness score, even if the score is small, they will be shifted to focus on the three things in their day they are grateful for. The site has simple CRUD functionality to allow each user to customize their experience.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Technologies used
+1. HTML
+2. CSS
+3. Ruby
+4. Rails
+5. SQL
+6. PostgreSQL
+7. JSX
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Challenges
+### Time commitment 
+I began the project on without a good grasp of exactly what I wanted to do. I ran with an idea for about 3 days, only to realize the night before the assignment was due that I overreached in the time frame I was given. I ended up restarting my project to simplify and narrow the idea into a tangible application. 
 
-### `yarn test`
+### Adding in a chart
+I tried to add in a chart to document the users happiness score but did not have the time to fully understand how to utilize chart.js with a one-to-one relationship application. 
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Future Goals:
 
-### `yarn build`
+* Add user-authentication so multiple users can utilize the platform and be able to make their information private
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Add some type of chart to document and trend the users happiness score
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+* Better CSS Design
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## App Demo 
+Please take a look at my project 
+[Grateful Reminder](https://zchen92.github.io/mathGame/)
+Heroku Link - Will be available shortly!
 
-### `yarn eject`
+## Acknowledgements 
+Big shoutout to Mike Bocon!
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
