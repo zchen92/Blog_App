@@ -85,7 +85,6 @@ class Diaries extends Component {
         console.log(this.props.diaryToEdit)
         return(
             <>
-            <h1>Diary Post</h1>
             {/* <canvas id="diaries" width="400" height="150"></canvas> */}
             {this.props.content.map((diary,index) => {
                 if(this.props.isEditing) {

@@ -1,7 +1,8 @@
 body {
     background-color:azure;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color:#343a40
+    color:#343a40;
+    display:flex
 }
 
 .container {
@@ -10,6 +11,7 @@ body {
     background-position: center;
     background-size: cover;
     display: flex; 
+    flex:1;
     flex-direction: column;
     background-color:azure;
     border-radius: 5px;
@@ -27,24 +29,47 @@ header {
 
 .formBox {
     margin: 5%;
+    display: flex;
     font-size: 30px;
 } 
+
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+input[type="text"] {
+    flex-basis:50%;
+    padding: .3em;
+}
+input[type="number"] {
+    flex-basis:50%;
+    padding: .3em;
+}
+
+input[type="submit"] {
+    flex-basis:51%;
+    padding: .5em;
+    margin: .5em;
+    margin-top: 1.5em;
+    font: 20px;
+}
+
+label {
+    flex-basis: 51%;
+    text-align: center;
+}
 
 .diary{
     margin:5%;
     font-size: 30px;
-}
-
-form {
-    flex-direction: column;
-}
-
-footer{
-    justify-content: center;
+    flex: 1
 }
 
 footer>h3 {
     font-size: 25px;
-    color: cornsilk;
-    justify-content: center;
+    color: black;
+    text-align: center;
 }
+

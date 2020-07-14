@@ -105,6 +105,7 @@ class App extends Component {
           <header>
             <h1>Happiness is a State of Mind</h1>
           </header>
+          <nav>
             <div className="formBox">
                 {this.state.isEditing ? null : <div>
                   <h2>Record your day!</h2>
@@ -127,7 +128,9 @@ class App extends Component {
                     <input type="submit" className="submit" />
                 </form> </div> }
               </div>
-          <div className="Diary">
+              </nav>
+          <div className="diary">
+              <h3>All the great things in my life:</h3>
               <Diaries 
                 content={this.state.diaries} 
                 handleDelete={this.handleDelete} 
