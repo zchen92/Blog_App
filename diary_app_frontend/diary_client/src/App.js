@@ -105,7 +105,6 @@ class App extends Component {
           <header>
             <h1>Happiness is a State of Mind</h1>
           </header>
-          <div class="sub-container1">
             <div className="formBox">
                 {this.state.isEditing ? null : <div>
                   <h2>Record your day!</h2>
@@ -128,11 +127,6 @@ class App extends Component {
                     <input type="submit" className="submit" />
                 </form> </div> }
               </div>
-              {/* <div className="chart">
-                <h2>Happiness Chart</h2>
-              </div> */}
-            </div>
-          <div className="sub-container2">
           <div className="Diary">
               <Diaries 
                 content={this.state.diaries} 
@@ -143,7 +137,9 @@ class App extends Component {
                 diaryToEdit={this.state.diaryToEdit} 
                 handleChange={this.state.handleChange}/>
           </div>
-          </div>
+          <footer>
+            <h3>Created by: Zoe (Luting) Chen</h3>
+          </footer>
         </div>
     );
   }

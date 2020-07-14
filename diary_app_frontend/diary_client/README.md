@@ -28,15 +28,15 @@ I tried to add in a chart to document the users happiness score but did not have
 
 * Add some type of chart to document and trend the users happiness score
 
-* Better CSS Design
+* Enhance CSS Design (mainly flex-box direction, legibility/font-coloring)
 
 ## App Demo 
 Please take a look at my project 
-[Grateful Reminder](https://zchen92.github.io/mathGame/)
+[Grateful Reminder](https://git.generalassemb.ly/Software-Engineering-Immersive-Remote/SEIR-MAE/tree/master/unit_4)
 Heroku Link - Will be available shortly!
 
 ## Acknowledgements 
-Big shoutout to Mike Bocon!
+Big shoutout to Mike Bocon for all your help!
 
 
 
